@@ -21,3 +21,6 @@ Principais novidades 4.1:
 - Melhorias de usabilidade e acessibilidade no mobile
 - Rastreamento com localizações de clique mais detalhadas
 - Nenhuma avaliação ou número de atendimento inventado
+
+
+VERSÃO 4.1.2: corrigido posicionamento do menu mobile e bloqueio da rolagem do fundo.

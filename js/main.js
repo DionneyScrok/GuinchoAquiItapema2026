@@ -3,7 +3,7 @@ const nav=document.getElementById("nav");
 const menu=document.getElementById("menuButton");
 const header=document.getElementById("header");
 function closeMenu(){nav?.classList.remove("active");menu?.setAttribute("aria-expanded","false");menu?.setAttribute("aria-label","Abrir menu");document.body.classList.remove("menu-open");document.querySelectorAll(".nav-group.open").forEach(g=>{g.classList.remove("open");g.querySelector(".nav-trigger")?.setAttribute("aria-expanded","false")})}
-menu?.addEventListener("click",()=>{const open=nav.classList.toggle("active");menu.setAttribute("aria-expanded",String(open));menu.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");document.body.classList.toggle("menu-open",open)});
+menu?.addEventListener("click",()=>{const open=nav.classList.toggle("active");if(open)nav.scrollTop=0;menu.setAttribute("aria-expanded",String(open));menu.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");document.body.classList.toggle("menu-open",open)});
 document.querySelectorAll(".nav-trigger").forEach(btn=>btn.addEventListener("click",e=>{const group=btn.closest(".nav-group");if(innerWidth<=960){e.preventDefault();group.classList.toggle("open");btn.setAttribute("aria-expanded",String(group.classList.contains("open")))}else{document.querySelectorAll(".nav-group.open").forEach(g=>{if(g!==group)g.classList.remove("open")});group.classList.toggle("open");btn.setAttribute("aria-expanded",String(group.classList.contains("open")))}}));
 document.addEventListener("click",e=>{if(innerWidth>960&&!e.target.closest(".nav-group"))document.querySelectorAll(".nav-group.open").forEach(g=>g.classList.remove("open"))});
 document.querySelectorAll(".nav>a,.dropdown a").forEach(a=>a.addEventListener("click",closeMenu));
