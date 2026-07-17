@@ -1,35 +1,23 @@
-GUINCHO AQUI ITAPEMA — PACOTE PRONTO PARA PUBLICAÇÃO
+GUINCHO AQUI ITAPEMA — VERSÃO 4.1 PREMIUM
 
-DOMÍNIO
-www.guinchoaquiitapema.com.br
+Publicação recomendada:
+1. Crie ou use a branch versao-4.1-premium.
+2. Envie o CONTEÚDO desta pasta para a raiz do repositório.
+3. Confira se index.html, CNAME, robots.txt e sitemap.xml estão na raiz.
+4. Em Settings > Pages, publique a branch apenas para testar.
+5. Teste no celular: menu, telefone, WhatsApp e todas as páginas.
+6. No modo Preview do Google Tag Manager, confirme os eventos click_ligar e click_whatsapp.
 
-RASTREAMENTO INSTALADO
-- Google Tag Manager: GTM-M3GNL63C
-- Código GTM instalado no <head> das 19 páginas
-- Bloco noscript instalado após a abertura do <body> nas 19 páginas
-- Eventos enviados ao dataLayer:
-  * click_ligar
-  * click_whatsapp
-  * site_conversion_click
-- Os eventos incluem página, destino e tipo de lead.
-- O arquivo CNAME está incluído para o domínio personalizado no GitHub Pages.
+GTM instalado: GTM-M3GNL63C
+Telefone: (47) 98877-1332
+Domínio canônico: https://www.guinchoaquiitapema.com.br/
 
-PUBLICAÇÃO NO GITHUB
-1. Extraia este ZIP.
-2. Envie TODOS os arquivos e pastas diretamente para a raiz do repositório publicado.
-3. Substitua os arquivos antigos quando solicitado.
-4. Confirme que index.html e CNAME ficaram na raiz do repositório.
-5. Aguarde o GitHub Pages concluir o deploy.
-
-TESTE APÓS PUBLICAR
-1. Abra o site em janela anônima.
-2. Teste um botão LIGAR e um botão WHATSAPP.
-3. No Google Tag Manager, use Visualizar/Tag Assistant para confirmar:
-   - Container GTM-M3GNL63C carregado
-   - Evento click_ligar ao clicar no telefone
-   - Evento click_whatsapp ao clicar no WhatsApp
-4. Não publique tags duplicadas no GTM. O site usa o container como fonte central das tags.
-
-IMPORTANTE
-Os IDs/rótulos específicos de conversão do Google Ads ficam configurados dentro do
-container GTM-M3GNL63C. Este pacote conecta corretamente o site a esse container.
+Principais novidades 4.1:
+- Home premium focada em conversão
+- Assistente de emergência com mensagens prontas no WhatsApp
+- Nova apresentação de serviços e regiões
+- Galeria com imagens reais do projeto
+- Microanimações, indicador 24h pulsante e header dinâmico
+- Melhorias de usabilidade e acessibilidade no mobile
+- Rastreamento com localizações de clique mais detalhadas
+- Nenhuma avaliação ou número de atendimento inventado
