@@ -1,0 +1,18 @@
+PACOTE COM 10 PÁGINAS DE SITELINK - GUINCHO AQUI ITAPEMA
+
+Copie as 10 pastas e os arquivos css/sitelinks.css e js/sitelinks.js para a raiz do projeto.
+
+Telefone configurado: (47) 98877-1332
+Eventos dataLayer: click_ligar e click_whatsapp
+
+Páginas:
+/chamar/
+/ligar/
+/atendimento/
+/whatsapp/
+/servicos/
+/area-de-atendimento/
+/guincho-carros/
+/guincho-motos/
+/carga-de-bateria/
+/troca-de-pneu/
